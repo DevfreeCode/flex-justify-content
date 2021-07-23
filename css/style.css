@@ -1,0 +1,64 @@
+:root{
+    --background-color: #009688;
+    --border-color: #bdbdbd;
+}
+
+body{
+    height: 100vh;
+    margin: 0px;
+    display: grid;
+}
+
+.wrapper{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.flex{
+    display: flex;
+}
+
+.parent{
+    border: 1px solid #bdbdbd;
+    border-radius: 10px;
+}
+
+.child{
+    width: 100%;
+    max-width: 3rem;
+    height: 1rem;
+    border: 1px solid var(--border-color);
+    margin: 1rem;
+    background: var(--background-color);
+}
+
+.title{
+    font-size: 1.5rem;
+}
+
+.j-center{
+    justify-content: center;
+}
+
+.j-start{
+    justify-content: flex-start;
+}
+
+.j-end{
+    justify-content: flex-end;
+}
+
+.j-evenly{
+    justify-content: space-evenly;
+}
+
+.j-around{
+    justify-content: space-around;
+}
+
+.j-between{
+    justify-content: space-between;
+}
